@@ -1,0 +1,144 @@
+
+.login-form-section {
+    height: 43rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-login{
+    background-image: url(/src/assets/images/Login-01.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+
+}
+
+.login-main-container {
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 23%;
+    height: 70%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.login-main-container h1 {
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.login-main-container form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    min-height: 12rem;
+    height: auto;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+
+}
+
+.login-main-container form input {
+    border-radius: 0px;
+    border: none;
+    background-color: #f7f7f7;
+    text-indent: 5px;
+}
+
+.login-main-container form input:focus {
+    outline: 1px solid rgb(207, 207, 207);
+}
+
+.login-main-container form input::placeholder{
+    font-size: .8rem;
+}
+
+.login-main-container form button {
+    width: 80%;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.login-main-container form button:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+.extra-links {
+    border-top: 1px solid gray;
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    color: rgb(0, 0, 145);
+}
+
+.linktochangepass{
+    color: rgb(0, 0, 145);
+}
+
+.link-signup{
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (min-width: 300px) and (max-width: 800px){
+    .image-login{
+        display: none;
+    }
+
+    .login-main-container{
+        width: 80%;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 4rem;
+    }
+
+    .login-form-section{
+        background-image: linear-gradient(90deg,rgb(255, 0, 255), rgb(0, 0, 255));
+    }
+    .login-form-section{
+        height: 95vh;
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 810px) and (max-width: 1300px){
+    .image-login{
+        width: 40%;
+        margin-left: -7rem;
+    }
+    .login-form-section{
+        gap: 5rem;
+    }
+    .login-main-container{
+        width: 30%;
+    }
+}
+
+.signin-btnn p{
+    margin-top: 7px;
+}
