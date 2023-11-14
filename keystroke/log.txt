@@ -1,0 +1,7 @@
+kfdfkld
+Key.ctrlKey.ctrl/Key.shift""Key.leftKey.leftfKey.rightKey.shift{}Key.leftdatet
+Key.backspace.timeKey.down
+Key.rightKey.shift: Key.shift{}Key.leftkeyKey.rightKey.rightKey.deleteKey.deleteKey.deleteKey.deleteKey.backspaceKey.shift}Key.rightKey.rightKey.rightKey.rightKey.rightKey.rightKey.rightKey.shift"Key.rightKey.ctrlc2023-09-11 17:07:01.019932: s
+2023-09-11 17:07:01.020342: d
+2023-09-11 17:07:01.208841: f
+2023-09-11 17:07:01.354903: d
